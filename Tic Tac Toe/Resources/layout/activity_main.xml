@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayoutMainMenu">
+
+        <TextView
+            android:text="@string/app_name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/textView1"
+            android:textSize="100px"
+            android:textColor="#EF123456"
+            android:layout_marginTop="19.2dp" />
+
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="match_parent"
+            android:layout_height="258dp"
+            android:id="@+id/imageView1"
+            android:contentDescription="Program's icon"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:text="Play Two Players Mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75px"
+            android:id="@+id/ButtonPlayTwoPlayersMode"
+            app:cornerRadius="0dp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:text="Play With Computer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:id="@+id/buttonPlayWithComputer"
+            app:cornerRadius="0dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:text="Created by: Bloker Company™"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="textEnd"
+            android:paddingRight="15px"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutGame">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#1F3160ff"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="15px"
+            android:layout_marginLeft="20px">
+
+            <TextView
+                android:text="O"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="120px"
+                android:minHeight="120px"
+                android:minWidth="170px"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/ShowPlayerTextView"
+                android:textColor="#ff030302"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:layout_marginTop="5dp">
+
+            <Button
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:textSize="50dp"
+                android:id="@+id/button1"
+                app:iconGravity="textStart"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="135px"
+                android:enabled="false"
+                android:layout_marginRight="15px"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:textSize="50dp"
+                android:id="@+id/button2"
+                app:iconGravity="textStart"
+                android:layout_gravity="center_horizontal"
+                android:enabled="false"
+                android:layout_marginLeft="15px"
+                android:layout_marginRight="15px"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:textSize="50dp"
+                android:id="@+id/button3"
+                app:iconGravity="textStart"
+                android:layout_gravity="center_horizontal"
+                android:enabled="false"
+                android:layout_marginLeft="15px"
+                app:cornerRadius="0dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2">
+
+            <Button
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:textSize="50dp"
+                android:id="@+id/button4"
+                app:iconGravity="textStart"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="135px"
+                android:enabled="false"
+                android:layout_marginRight="15px"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:textSize="50dp"
+                android:id="@+id/button5"
+                app:iconGravity="textStart"
+                android:layout_gravity="center_horizontal"
+                android:enabled="false"
+                android:layout_marginLeft="15px"
+                android:layout_marginRight="15px"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:textSize="50dp"
+                android:id="@+id/button6"
+                app:iconGravity="textStart"
+                android:layout_gravity="center_horizontal"
+                android:enabled="false"
+                android:layout_marginLeft="15px"
+                app:cornerRadius="0dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout3"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:textSize="50dp"
+                android:id="@+id/button7"
+                app:iconGravity="textStart"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="135px"
+                android:enabled="false"
+                android:layout_marginRight="15px"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:textSize="50dp"
+                android:id="@+id/button8"
+                app:iconGravity="textStart"
+                android:layout_gravity="center_horizontal"
+                android:enabled="false"
+                android:layout_marginLeft="15px"
+                android:layout_marginRight="15px"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:textSize="50dp"
+                android:id="@+id/button9"
+                app:iconGravity="textStart"
+                android:layout_gravity="center_horizontal"
+                android:enabled="false"
+                android:layout_marginLeft="15px"
+                app:cornerRadius="0dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:visibility="gone"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EndGameTextView"
+            android:textAlignment="center"/>
+
+        <Button
+            android:text="Start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonStart"
+            tools:ignore="HardcodedText"
+            android:textColor="#ffa1e6a9"
+            android:textSize="48px"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:text="Reset"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonReset"
+            tools:ignore="HardcodedText"
+            android:textSize="42px"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
