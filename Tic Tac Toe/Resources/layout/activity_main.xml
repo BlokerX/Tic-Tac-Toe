@@ -45,7 +45,6 @@
             android:text="Play With Computer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:enabled="false"
             android:id="@+id/buttonPlayWithComputer"
             app:cornerRadius="0dp"
             tools:ignore="HardcodedText" />
